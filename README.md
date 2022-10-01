@@ -1,14 +1,8 @@
 # Vinyl Spotify Theme
 
-## Normal Varient
+## Normal & Realistic Varients
 
 ![picture](./assets/other/example-normal.gif) ![picture](./assets/other/example-realistic.gif)
-
-## Realistic Varient
-
-
-
-A Vinyl Like Spotify Theme
 
 ## How To Install The Theme?
 
