@@ -1,9 +1,11 @@
 # Vinyl Spotify Theme
 
-Normal Varient
+## Normal Varient
+
 ![picture](./assets/other/example-normal.gif)
 
-Realistic Varient
+## Realistic Varient
+
 ![picture](./assets/other/example-realistic.gif)
 
 A Vinyl Like Spotify Theme
