@@ -2,7 +2,7 @@
 
 ## Normal & Realistic Varients
 
-![picture](./assets/images/example-normal.gif) ![picture](./assets/images/example-realistic.gif)
+![picture](./assets/screenshots/example-normal.gif) ![picture](./assets/screenshots/example-realistic.gif)
 
 ## Extensions Used
 These Are Extensions That Are Themed Not Required
