@@ -1,0 +1,174 @@
+@import "";
+
+:root {
+    --borders-radius: 24px;
+
+    --spice-notification-error: #cd1a2b;
+    --spice-button-active: #1ed760;
+    --spice-subtext: #b3b3b3;
+    --spice-selected-row: #ffffff;
+    --spice-button-disabled: #535353;
+    --spice-main: #141414;
+    --spice-misc: #7f7f7f;
+    --spice-notification: #2e77d0;
+    --spice-tab-active: #333333;
+    --spice-player: #212121;
+    --spice-button: #1ed760;
+    --spice-text: #ffffff;
+    --spice-shadow: #000000;
+    --spice-sidebar: #0c0c0c;
+    --spice-card: #282828;
+
+    --spice-rgb-notification-error: 205,26,43;
+    --spice-rgb-button-active: 30,215,96;
+    --spice-rgb-subtext: 179,179,179;
+    --spice-rgb-selected-row: 255,255,255;
+    --spice-rgb-button-disabled: 83,83,83;
+    --spice-rgb-main: 18,18,18;
+    --spice-rgb-misc: 127,127,127;
+    --spice-rgb-notification: 46,119,208;
+    --spice-rgb-tab-active: 51,51,51;
+    --spice-rgb-player: 33,33,33;
+    --spice-rgb-button: 30,215,96;
+    --spice-rgb-text: 255,255,255;
+    --spice-rgb-shadow: 0,0,0;
+    --spice-rgb-sidebar: 0,0,0;
+    --spice-rgb-card: 40,40,40;
+}
+
+/* Borders Radius */
+.nav-alt .Root__nav-bar,
+.nav-alt .Root__main-view,
+.nav-alt .main-buddyFeed-buddyFeedRoot, .nav-alt .VLKqDIGaQn2bILzJKSZ0,
+.SQHCRmgNjRywo1Lt7rP3 {
+    border-radius: var(--borders-radius) !important;
+}
+
+.SQHCRmgNjRywo1Lt7rP3 {
+    background-color: transparent;
+}
+
+.nav-alt .VLKqDIGaQn2bILzJKSZ0 {
+    background-color: var(--spice-main) !important;
+}
+
+/* --- */
+
+/* Round Playlist Icons */
+:root {
+    --album-art-radius: 50%;
+    --profile-art-radius: 50%;
+}
+
+  .main-trackList-rowImage,
+  .main-trackList-rowImageWithPlay .main-trackList-rowImagePlayPauseButton,
+  .playlist-item__img.folder,
+  .playlist-item__img,
+  .main-entityHeader-image, .main-editImageButton-image,
+  .cover-art .cover-art-image, .cover-art {
+    border-radius: var(--album-art-radius) !important;
+}
+
+  .main-avatar-image, .main-topBar-button, .main-buddyFeed-avatarContainer .main-buddyFeed-overlay, .PsrXxenHUFXYM1ub1xWw {
+    border-radius: var(--profile-art-radius) !important
+}
+
+/* --- */
+
+/* Fixes Reccommended Songs Alignment */
+[dir=ltr] .main-trackList-rowImageWithPlay {
+    margin-left: -40px !important
+}
+
+/* --- */
+
+/* Modern Scrollbar */
+.os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle { 
+    border-radius: 4px; 
+    width: 6px; 
+    background-color: var(--spice-button-disabled); 
+}
+
+.os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track { 
+    width: 6px; 
+}
+
+/* --- */
+
+/* Album VinylSpin */
+@keyframes VinylSpin {
+    from { transform: rotate(0deg)}
+      to { transform: rotate(360deg)}
+}
+
+[class="main-image-image cover-art-image Yn2Ei5QZn19gria6LjZj"] {
+    animation: VinylSpin 10s linear infinite;
+}
+[class="cover-art shadow cover-art--with-auto-height"] {
+    background-color: transparent !important;
+}
+
+/* Vinyl */
+[referrer="now_playing_bar"] .cover-art.shadow [class="main-image-image cover-art-image Yn2Ei5QZn19gria6LjZj"] {
+    border: 65px solid #070607; /* Realistic Vinyl */
+    border-image: url("https://i.imgur.com/aFwZ0ub.png") 50 round;
+    border-image-width: 100%;
+}
+/* Vinyl Player */
+.main-coverSlotExpanded-container::after {
+    content: url("https://i.imgur.com/RT0P44X.png") !important;
+    transform: scale(0.8);
+    rotate: -4deg;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: -10px;
+}
+/* Vinyl Dot */
+/* */
+.main-coverSlotExpanded-container::before {
+    content: url("https://i.imgur.com/row0ddJ.png") !important;
+    transform: scale(0.8);
+    filter: brightness(0%);
+    rotate: -4deg;
+    display: block;
+    position: absolute;
+    top: 110px;
+    right: 115px;
+    z-index: 1;
+}
+
+/* --- */
+
+/* Smooth Header Reveal */
+
+.main-entityHeader-overlay,
+.main-actionBarBackground-background,
+.main-entityHeader-overlay,
+.main-entityHeader-backgroundColor {
+  -webkit-transition: 3.5s;
+}
+
+/* --- */
+
+/* Fix Like Icon */
+.main-likedSongsButton-likedSongsIcon {
+    color: var(--spice-sidebar);
+    background: var(--spice-text);
+  }
+
+/* --- */
+
+/* Modern Scrollbar */
+
+.os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle { 
+    border-radius: 4px; 
+    width: 6px; 
+    background-color: var(--spice-button-disabled); 
+} 
+
+ .os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track {
+    width: 6px; 
+}
+
+/* --- */
