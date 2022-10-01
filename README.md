@@ -7,7 +7,7 @@
 ## Extensions Used
 These Are Extensions That Are Themed Not Required
 
-[Spicetify Genre](https://github.com/Shinyhero36/Spicetify-Genre) By [Shinyhero36](https://github.com/Shinyhero36/Spicetify-Genre)
+[Spicetify Genre](https://github.com/Shinyhero36/Spicetify-Genre) By [Shinyhero36](https://github.com/Shinyhero36)
 
 [Spicetify Star Rating](https://github.com/duffey/spotify-star-ratings) By [duffey](https://github.com/duffey)
 
