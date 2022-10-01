@@ -125,7 +125,7 @@
     right: -10px;
 }
 /* Vinyl Dot */
-/* */
+/* */ 
 .main-coverSlotExpanded-container::before {
     content: url("https://raw.githubusercontent.com/leeparky-spicetify/vinylspotify/main/assets/images/vinyl-dot.png") !important;
     transform: scale(0.8);
