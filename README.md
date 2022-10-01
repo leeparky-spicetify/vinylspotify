@@ -2,11 +2,11 @@
 
 ## Normal Varient
 
-![picture](./assets/other/example-normal.gif)
+![picture](./assets/other/example-normal.gif) ![picture](./assets/other/example-realistic.gif)
 
 ## Realistic Varient
 
-![picture](./assets/other/example-realistic.gif)
+
 
 A Vinyl Like Spotify Theme
 
