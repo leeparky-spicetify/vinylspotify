@@ -116,7 +116,7 @@
 }
 /* Vinyl Player */
 .main-coverSlotExpanded-container::after {
-    content: url(/Assets/images/vinyl-player.png) !important;
+    content: url(./Assets/png/vinyl-player.png) !important;
     transform: scale(0.8);
     rotate: -4deg;
     display: block;
@@ -127,7 +127,7 @@
 /* Vinyl Dot */
 /* */
 .main-coverSlotExpanded-container::before {
-    content: url(/Assets//images/vinyl-hole.png) !important;
+    content: url(./Assets/png/vinyl-dot.png) !important;
     transform: scale(0.8);
     filter: brightness(0%);
     rotate: -4deg;
