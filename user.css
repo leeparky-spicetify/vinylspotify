@@ -111,7 +111,7 @@
 /* Vinyl */
 [referrer="now_playing_bar"] .cover-art.shadow [class="main-image-image cover-art-image Yn2Ei5QZn19gria6LjZj"] {
     border: 65px solid #070607; /* Realistic Vinyl */
-    border-image: url("https://i.imgur.com/aFwZ0ub.png") 50 round;
+    border-image: url("https://raw.githubusercontent.com/leeparky-spicetify/vinylspotify/main/assets/images/vinyl-texture.png") 50 round;
     border-image-width: 100%;
 }
 /* Vinyl Player */
