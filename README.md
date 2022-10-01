@@ -1,4 +1,4 @@
-# Vinyl Spotify Theme
+# Vinyl Spotify Theme [INCOMPLETE]
 
 ## Normal & Realistic Varients
 
