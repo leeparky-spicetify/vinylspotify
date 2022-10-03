@@ -124,7 +124,7 @@
 [referrer="now_playing_bar"] .cover-art.shadow [class="main-image-image cover-art-image Yn2Ei5QZn19gria6LjZj"] {
     border-image: url("https://raw.githubusercontent.com/leeparky-spicetify/vinylspotify/main/assets/images/vinyl-texture.png") 50 round;
     border-image-width: 100%;
-    border-width: 65px; /* */
+    /* border-width: 65px; /* */
     border-style: solid;
 }
 /* Vinyl Player */
