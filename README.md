@@ -1,7 +1,7 @@
 # Vinyl Spotify Theme [INCOMPLETE]
 
 ## Normal & Realistic Varients
-d
+
 ![picture](./assets/screenshots/example-normal.gif) ![picture](./assets/screenshots/example-realistic.gif)
 
 ## Extensions Used
