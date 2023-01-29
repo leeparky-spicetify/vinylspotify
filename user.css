@@ -60,16 +60,16 @@
     --profile-art-radius: 50%;
 }
 
-.main-trackList-rowImage,
-.main-trackList-rowImageWithPlay .main-trackList-rowImagePlayPauseButton,
-.playlist-item__img.folder,
-.playlist-item__img,
-.main-entityHeader-image, .main-editImageButton-image,
-.cover-art .cover-art-image, .cover-art {
+  .main-trackList-rowImage,
+  .main-trackList-rowImageWithPlay .main-trackList-rowImagePlayPauseButton,
+  .playlist-item__img.folder,
+  .playlist-item__img,
+  .main-entityHeader-image, .main-editImageButton-image,
+  .cover-art .cover-art-image, .cover-art {
     border-radius: var(--album-art-radius) !important;
 }
 
-.main-avatar-image, .main-topBar-button, .main-buddyFeed-avatarContainer .main-buddyFeed-overlay, .PsrXxenHUFXYM1ub1xWw {
+  .main-avatar-image, .main-topBar-button, .main-buddyFeed-avatarContainer .main-buddyFeed-overlay, .PsrXxenHUFXYM1ub1xWw {
     border-radius: var(--profile-art-radius) !important
 }
 
@@ -81,6 +81,18 @@
 }
 
 /* --- */
+
+/* Left Aligned Hearts */
+.main-trackList-rowSectionStart {
+    margin-left: 38px !important;
+  }
+  .main-addButton-button.main-trackList-rowHeartButton,
+  .main-addButton-button.main-trackList-rowHeartButton {
+    position: absolute !important;
+    left: 48px !important;
+  }
+
+/* */
 
 /* Modern Scrollbar */
 .os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle { 
@@ -98,10 +110,10 @@
 /* Album VinylSpin */
 @keyframes VinylSpin {
     from { transform: rotate(0deg)}
-    to { transform: rotate(360deg)}
+      to { transform: rotate(360deg)}
 }
 
-[class="main-image-image cover-art-image Yn2Ei5QZn19gria6LjZj"] {
+.cover-art .cover-art-image {
     animation: VinylSpin 10s linear infinite;
 }
 [class="cover-art shadow cover-art--with-auto-height"] {
@@ -109,10 +121,11 @@
 }
 
 /* Vinyl */
-[referrer="now_playing_bar"] .cover-art.shadow [class="main-image-image cover-art-image Yn2Ei5QZn19gria6LjZj"] {
-    border: 65px solid #070607; /* Realistic Vinyl */
+[referrer="now_playing_bar"] .cover-art.shadow .cover-art .cover-art-image {
     border-image: url("https://raw.githubusercontent.com/leeparky-spicetify/vinylspotify/main/assets/images/vinyl-texture.png") 50 round;
     border-image-width: 100%;
+    /* border-width: 65px; /* */
+    border-style: solid;
 }
 /* Vinyl Player */
 .main-coverSlotExpanded-container::after {
@@ -146,7 +159,7 @@
 .main-actionBarBackground-background,
 .main-entityHeader-overlay,
 .main-entityHeader-backgroundColor {
-    -webkit-transition: 3.5s;
+  -webkit-transition: 3.5s;
 }
 
 /* --- */
@@ -155,7 +168,7 @@
 .main-likedSongsButton-likedSongsIcon {
     color: var(--spice-sidebar);
     background: var(--spice-text);
-}
+  }
 
 /* --- */
 
@@ -167,7 +180,7 @@
     background-color: var(--spice-button-disabled); 
 } 
 
-.os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track {
+ .os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track {
     width: 6px; 
 }
 
